@@ -6,7 +6,10 @@
 " Copyright 2005 by Tobias Schlitt <toby@php.net>
 " Inspired by phpDoc script for Vim by Vidyut Luther (http://www.phpcult.com/).
 "
-
+" modified by River .D (river.drw@gmail.com) - 01/01/2014
+" - remove folding marker
+" - remove class description
+" 
 " modified by kevin olson (acidjazz@gmail.com) - 03/19/2009
 " - added folding support
 "
