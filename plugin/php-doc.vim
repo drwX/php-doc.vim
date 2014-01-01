@@ -263,16 +263,16 @@ endfunc
 " {{{ PhpDocFuncEnd()
 func! PhpDocFuncEnd()
 
-	call append(line('.'), matchstr(getline('.'), '^\s*') . g:pdv_cfg_CommentEnd)
+	"call append(line('.'), matchstr(getline('.'), '^\s*') . g:pdv_cfg_CommentEnd)
 endfunc
 " }}}
 " {{{ PhpDocFuncEndAuto()
 func! PhpDocFuncEndAuto()
 
 
-	call search('{')
-	call searchpair('{', '', '}')
-	call append(line('.'), matchstr(getline('.'), '^\s*') . g:pdv_cfg_CommentEnd)
+	"call search('{')
+	"call searchpair('{', '', '}')
+	"call append(line('.'), matchstr(getline('.'), '^\s*') . g:pdv_cfg_CommentEnd)
 
 endfunc
 " }}}
