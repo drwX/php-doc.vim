@@ -88,9 +88,8 @@ let g:pdv_cfg_CommentSingle = "//"
 
 " Default values
 let g:pdv_cfg_Type = "mixed"
-" let g:pdv_cfg_Package = "Framework"
-" let g:pdv_cfg_Package = "Webdav"
-" let g:pdv_cfg_Version = "//autogen//"
+let g:pdv_cfg_Package = "Web"
+let g:pdv_cfg_Version = "//autogen//"
 let g:pdv_cfg_Author = "River .D"
 let g:pdv_cfg_Copyright = "Copyright (c) 2014 All rights reserved."
 let g:pdv_cfg_License = "PHP Version 5.4"
