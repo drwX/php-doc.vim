@@ -89,11 +89,11 @@ let g:pdv_cfg_CommentSingle = "//"
 " Default values
 let g:pdv_cfg_Type = "mixed"
 " let g:pdv_cfg_Package = "Framework"
-let g:pdv_cfg_Package = "Webdav"
-let g:pdv_cfg_Version = "//autogen//"
-let g:pdv_cfg_Author = ""
-let g:pdv_cfg_Copyright = "Copyright (c) 2010 All rights reserved."
-let g:pdv_cfg_License = "PHP Version 3.0 {@link http://www.php.net/license/3_0.txt}"
+" let g:pdv_cfg_Package = "Webdav"
+" let g:pdv_cfg_Version = "//autogen//"
+let g:pdv_cfg_Author = "River .D"
+let g:pdv_cfg_Copyright = "Copyright (c) 2014 All rights reserved."
+let g:pdv_cfg_License = "PHP Version 5.4"
 
 let g:pdv_cfg_ReturnVal = "void"
 
@@ -521,7 +521,7 @@ func! PhpDocType(typeString)
     return l:type
 endfunc
     
-"  }}} 
+" }}} 
 " {{{  PhpDocDefault()
 
 func! PhpDocDefault()
